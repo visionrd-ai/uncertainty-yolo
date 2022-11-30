@@ -68,7 +68,7 @@ This approach can also be used for scenarios extraction i.e to track the instanc
 >An unusual bike carrying sacks is being detected by the model but it is uncertain on it.
 ![s5_i](https://user-images.githubusercontent.com/110380622/204512483-297eecef-4c55-43f6-9a29-61bd3ad05bbb.gif)![s5_o](https://user-images.githubusercontent.com/110380622/204512540-0b5f5500-d271-47a2-b0fb-7e3be0a30597.gif)
 
-### Class-wise Uncertainty Analysis
+### Class-wise Instances Uncertainty Analysis
 ![vehicle](https://user-images.githubusercontent.com/110380622/204519138-b66a7081-7ab0-4841-be51-a116dde90362.png)
 ![person](https://user-images.githubusercontent.com/110380622/204519112-e2e6c48e-5af3-4a31-bb6f-6d5f0195ffbf.png)
 
