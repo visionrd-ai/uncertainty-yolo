@@ -8,7 +8,7 @@
 # Uncertainty Estimation for Object Detectors
 
 ## Introduction
-Object detectors usually just give out confidence scores with the detections and they usually are not the measurement of how sure a model is in classifying or localizing that object. In this approach we are trying to gain a measurement of how sure a model is in estimating the probability that an object belongs to a certain classs of interest (i.e. semantic uncertainity).
+Object detectors usually just give out confidence scores with the detections and they usually are not the measurement of how sure a model is in classifying or localizing that object. In this approach we are trying to gain a measurement of how sure a model is in estimating the probability that an object belongs to a certain class of interest (i.e. semantic uncertainity).
 
 ##  Epistemic Uncertainty Estimation
 For each element of the anticipated anchors $\mu$, and the standard deviation $\sigma$, comprise the Gaussian Probability Distribution function. When testing, we can calculate the Negative log-likelihood that an object is detected and its probability distribution vector $I$ belongs to the class $\hat l$ by:
@@ -37,7 +37,7 @@ A low negative log-likelihood represents a low uncertainty the detected object b
 2. For this repo, we have used [YOLOv5](https://github.com/ultralytics/yolov5) by [Ultralytics](https://ultralytics.com/). You can head over to their repo if you face any issues with the installation.
 
 ## Inference
-[`detect.py`](https://github.com/visionrd-ai/uncertainty-yolo/blob/main/detect.py) runs inference on a variety of sources, downloading pre-trained models automatically from the latest [YOLOv5](https://github.com/ultralytics/yolov5) release and saving results to `/runs/detect`. 
+[`detect.py`](https://github.com/visionrd-ai/uncertainty-yolo/blob/main/detect.py) runs inference on a variety of sources, downloading pre-trained models automatically from the latest [YOLOv5](https://github.com/ultralytics/yolov5) release and saving results to `runs/detect`. 
 
 ```bash
 python detect.py --source 0  # webcam
